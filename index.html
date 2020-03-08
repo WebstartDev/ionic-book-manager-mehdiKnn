@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat</title>
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+          crossorigin="anonymous">
+
+</head>
+<body style="min-height: 100vh"
+      class="d-flex justify-content-center bg-dark pt-5 pb-5">
+<div id="app"
+     class="d-flex flex-column align-items-center w-75 rounded bg-white p-5 overflow-scroll">
+    <Notification></Notification>
+
+    <chat></chat>
+
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Faker/3.1.0/locales/fr/faker.fr.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="app.js" type="module"></script>
+</body>
+</html>
